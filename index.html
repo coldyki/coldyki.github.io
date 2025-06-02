@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinylFactory</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        header{
+            text-align: left;
+            padding: 20px;
+            background-color: rgb(54, 52, 52);
+            color: white;
+        }
+        footer{
+            background-color: rgb(54, 52, 52);
+            color: white;
+            padding: 10px 0;
+        }
+        body{
+            background-color: white;
+            font-family: Arial;
+        }
+        .topnav{
+            background-color: black;
+            height: 370px;
+        }
+        .topnav_left {
+            float: left;
+            height: 300px;
+            width: 50%;
+            padding: 30px 30px 0 50px;
+        }
+        .topnav_right{
+            height: 300px;
+            width: 40%;
+            float: left;
+            padding: 15px 0 15px 0;
+            text-align: center;
+        }
+        .topnav_right div{ 
+            border: solid 1px white;
+            margin-top: 30px;
+            padding: 10px 0 10px 0;
+
+        }
+        .menu{
+            background-image: url(turning.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            height: 315px;
+            width: 100%;
+        }
+        .title{
+            display: block;
+            position: relative;
+            top: 267px;
+            padding: 10px;
+            text-align: left;
+            background-color: #00000080;
+        }
+        a:link{
+            text-decoration: none;
+            color: white;
+        }
+        a:visited{
+            color: white;
+        }
+        a:active{
+            color: white;
+        }
+        a:hover{
+            text-decoration: underline aqua;
+        }
+        .intro{
+            padding-top: 60px;
+        }
+        .intro span{
+            background-color: #071323;
+            color: white;
+            font-size: 20px;
+            padding: 10px 30px 10px 30px;
+        }
+        #left{
+            padding-top: 30px;
+        }
+        #left div{
+            float: left;
+            width: 49%;
+        }
+        #left div img{
+            width: 100%;
+        }
+        @media screen and (max-width: 800px){
+            .topnav{
+                height: 700px;
+            }
+            .topnav_left{
+                width: 100%;
+                padding-left: 0px;
+            }
+            .topnav_right{
+                width: 100%;
+            }
+            #left div{
+                float: none;
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none;"><h1>Vinyl Factory</h1></a>
+    </header>
+    <nav class="topnav">
+        <section class="topnav_left">
+            <a href="subpage1.html">
+            <div class="menu">
+                <h2 class="title">나의 음반 이야기</h2>
+            </div>
+            </a>
+        </section>
+        <section class="topnav_right" >
+            <a href="subpage2.html">
+                <div>
+                    <h2>음반 속 음악 이야기</h2>
+                </div>
+            </a>
+            <a href="subpage3.html">
+                <div>
+                    <h2>음악 공연 이야기</h2>
+                </div>
+            </a>
+            <a href="subpage4.html">
+                <div>
+                    <h2>시대별 음악</h2>
+                </div>
+            </a>
+            <a href="subpage5.html">
+                <div>
+                    <h2>아티스트별 음악</h2>
+                </div>
+            </a>
+        </section>
+    </nav>
+    <main>
+        <section>
+            <div class="intro">
+                <span style="width: 100%;">안녕하세요? 자기 소개를 해볼까 합니다</span>
+            </div>
+            <div id="left">
+                <div style="padding-left: 10px;">
+                    <h2>취미생활</h2>
+                    <br>
+                    <span>누구에게나 취미생활이 있잖아요?<br>
+                        저는 고등학교 시절, 우연히 들었던 한 장의 음반을 계기로 음악의 매력에 푹 빠지게 되었고,<br>
+                        그때부터 본격적으로 음반을 모으기 시작했습니다.<br>
+                        시간이 날 때마다 음반 가게를 찾아다니고, 온라인으로 희귀 앨범을 찾아보며<br>
+                        조금씩 제 컬렉션을 늘려왔습니다.<br>
+                        지금까지 수많은 음반들과 함께하며 음악이 제 삶의 중요한 일부가 되었습니다.<br><br>
+
+                        이 웹페이지는 제가 오랜 시간에 걸쳐 모은 음반들을 소개하고,<br>
+                        각 앨범에 얽힌 이야기와 감상을 나누기 위해 만든 공간입니다.<br>
+                        단순히 수집한 리스트를 보여주는 것에 그치지 않고,<br>
+                        음악이 제게 어떤 의미였는지, 어떤 순간에 어떤 음악을 들었는지를 함께 나누고 싶었습니다.<br><br>
+
+                        제가 좋아하는 음악 장르는 인디, 재즈, 록 등 비교적 자유롭고 감성적인 음악들이 많습니다.<br>
+                        때로는 커버 아트에 반해서 음반을 고르기도 하고,<br>
+                        어느 날은 우연히 들은 한 곡에 이끌려 새로운 아티스트의 세계에 빠지기도 합니다.<br>
+                        장르나 시대를 가리지 않고, 마음을 움직이는 음악이라면<br>
+                        어떤 것이든 제 컬렉션에 들어올 수 있어요.<br><br>
+
+                        음악은 저에게 단순한 취미를 넘어,<br>
+                        감정을 담아내고 추억을 떠올리게 해주는 소중한 기록입니다.<br>
+                        이 페이지가 음악을 사랑하는 여러분과 취향을 공유하고,<br>
+                        서로의 음악 이야기를 나눌 수 있는 따뜻한 공간이 되기를 바랍니다.<br><br>
+
+                        혹시 비슷한 음악을 좋아하시거나, 추천하고 싶은 앨범이 있다면<br>
+                        언제든지 메일로 편하게 이야기 걸어주세요.<br>
+                        여러분의 음악 이야기도 들려주시면 정말 기쁠 것 같아요.
+                    </span>
+                </div>
+                <div style="margin-top: 30px;">
+                    <img src="topsters2-2.png">
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="clear"></div>
+    <footer>
+        <span>VinylFactory</span>
+        <span>오늘의 추천곡 :Tower of power - This time it's real</span>
+        <span style="float: right;">tlacksrl0131@naver.com</span>
+    </footer>
+</body>
+</html>
