@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아티스트별</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .clear {
+            clear: both;
+        }
+        header{
+            text-align: left;
+            padding: 20px;
+            background-color: rgb(54, 52, 52);
+            color: white;
+        }
+        footer{
+            background-color: rgb(54, 52, 52);
+            color: white;
+            padding: 10px 0;
+        }
+        body{
+            background-color: white;
+            font-family: Arial;
+        }
+        a:link{
+            text-decoration: none;
+            color: white;
+        }
+        header a:active :visited{
+            color: white;
+        }
+        header a:hover{
+            text-decoration: underline aqua;
+        }
+        .menu {
+            width: 20%;
+            float: left;
+        }
+        .main{
+            width: 79%;
+            float: left;
+        }
+        .main section{
+            padding: 30px;
+        }
+        .main li{
+            list-style-type: none;
+        }
+        nav{
+            background-color: white;
+            border: solid 1px black;
+            text-align: center;
+            float: left;
+        }
+        nav li{
+            padding: 10px;
+        }
+        nav img{
+            padding-top: 20px;
+        }
+        nav a:link{
+            color: black;
+        }
+        nav a:hover{
+            color: white;
+            background-color: black;
+        }
+        section a:link{
+            color: black;
+        }
+        section a:hover{
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 800px){
+            .menu{
+                width: 100%;
+            }
+            .main{
+                width: 100%;
+            }
+            nav img{width: 0%;}
+            footer {padding: 20px 0;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none;"><h1>Vinyl Factory</h1></a>
+    </header>
+    <nav class="menu">
+        <div>
+        <ul>
+            <li><a href="subpage1.html">나의 음반 이야기</a></li>
+            <li><a href="subpage2.html">음반 속 음악 이야기</a></li>
+            <li><a href="subpage3.html">음악 공연 이야기</a></li>
+            <li><a href="subpage4.html">시대별 음악</a></li>
+            <li><a href="subpage5.html">아티스트별 음악</a></li>
+        </ul>
+        </div>
+        <img src="turning2.gif" width="100%">
+    </nav>
+    <main class="main">
+        <section>
+            <ul><strong>버스커버스커</strong>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <ul><strong>권순관</strong>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <ul><strong>New edition</strong>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <ul><strong>Parannoul</strong>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <ul><strong>Bruno mars</strong>
+                <li></li>
+                <li></li>
+            </ul>
+        </section><section>
+            <ul><strong>Bronze</strong>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <ul><strong>잔나비</strong>
+                <li><a href="subpage1.html">잔나비 - 전설</a></li>
+                <li></li>
+            </ul>
+        </section>
+    </main>
+    <div class="clear"></div>
+    <footer>
+        <span>VinylFactory</span>
+        <span>오늘의 추천곡 :Tower of power - This time it's real</span>
+        <span style="float: right;">tlacksrl0131@naver.com</span>
+    </footer>
+</body>
+</html>
